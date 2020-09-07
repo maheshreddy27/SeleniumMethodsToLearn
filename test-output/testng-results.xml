@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Login page]]>
+    </line>
+    <line>
+      <![CDATA[Add user]]>
+    </line>
+    <line>
+      <![CDATA[edit user]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69" started-at="2020-09-01T18:27:05 IST" finished-at="2020-09-01T18:27:05 IST">
+    <groups>
+      <group name="smoke">
+        <method signature="ExecutionTestNGBasedOnGroups.editUser()[pri:2, instance:frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups@782663d3]" name="editUser" class="frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups"/>
+      </group> <!-- smoke -->
+      <group name="user">
+        <method signature="ExecutionTestNGBasedOnGroups.addUser()[pri:1, instance:frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups@782663d3]" name="addUser" class="frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups"/>
+      </group> <!-- user -->
+    </groups>
+    <test name="Test" duration-ms="69" started-at="2020-09-01T18:27:05 IST" finished-at="2020-09-01T18:27:05 IST">
+      <class name="frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups">
+        <test-method status="PASS" signature="login()[pri:0, instance:frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups@782663d3]" name="login" is-config="true" duration-ms="18" started-at="2020-09-01T18:27:05 IST" finished-at="2020-09-01T18:27:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addUser()[pri:1, instance:frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups@782663d3]" name="addUser" duration-ms="7" started-at="2020-09-01T18:27:05 IST" finished-at="2020-09-01T18:27:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Add user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method status="PASS" signature="editUser()[pri:2, instance:frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups@782663d3]" name="editUser" duration-ms="2" started-at="2020-09-01T18:27:05 IST" finished-at="2020-09-01T18:27:05 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[edit user]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+      </class> <!-- frameWorksExamplesTestNG.ExecutionTestNGBasedOnGroups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
