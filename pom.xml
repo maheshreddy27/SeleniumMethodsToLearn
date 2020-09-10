@@ -4,6 +4,8 @@
   <artifactId>SeleniumMethodsToLearn</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <build>
+    <defaultGoal>install</defaultGoal>
+    <!-- Source directory configuration -->
     <sourceDirectory>src</sourceDirectory>
     <plugins>
       <plugin>
@@ -24,13 +26,21 @@
           </systemPropertyVariables>
         </configuration>
        </plugin>
+       <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.1</version>
+        <configuration>
+            <fork>true</fork>
+            <executable>C:\Program Files\Java\jdk1.8.0_191\bin\javac.exe</executable>
+        </configuration>
+    </plugin>
        </plugins>
   </build>
   <dependencies>
   	<dependency>
   		<groupId>org.seleniumhq.selenium</groupId>
   		<artifactId>selenium-java</artifactId>
-  		<version>LATEST</version>
+  		<version>3.14.0</version>
   	</dependency>
   </dependencies>
 </project>
